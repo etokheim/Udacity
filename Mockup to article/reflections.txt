@@ -1,0 +1,11 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+I honestly do not think I have learned much yet, though I am hoping to. I am taking this course in order to improve my skills and to make sure that I am not missing the fundamental skills while pursuing more advanced topics.
+
+Till now, I think everything has been easy, so I am kind of fast forwarding the course and until it gets more advanced. I am really looking forward to the AJAX part of the tutorial though, since I have not yet had the time to touch that subject. Also I hope that I have the opportunity to take the projects of this course to the next level if I would want to, instead of just following the course as a preprogrammed robot.
