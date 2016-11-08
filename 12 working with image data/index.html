@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Working with image data</title>
+			
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+
+		<style>
+		</style>
+	</head>
+
+	<body>	
+		<canvas width="500" height="500"></canvas>
+
+		<script>
+			var canvas = document.getElementsByTagName("canvas")[0],
+				ctx = canvas.getContext("2d");
+				imageData = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+			console.log(imageData);
+
+			function greenify() {
+				for (var i = 0; i < imageData.data.length / 4; i++) {
+					if(i % 10 === 10) {
+						imageData.data[i * 4 + 1] = 255;
+						imageData.data[i * 4 + 3] = 255;
+						
+						console.log("10");
+					}
+					console.log("For");
+					ctx.putImageData(imageData, 0, 0);
+				}
+			}
+
+			// greenify();
+		</script>
+
+	</body>
+</html>
