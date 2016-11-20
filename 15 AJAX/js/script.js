@@ -24,8 +24,9 @@ function loadData() {
 	$("#heroImage").css("background-image", "url('" + imgUrl + "')");
 
 
-
-	var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=c4b3bebe95a3426fa3fb13684ae9bcd6";
+	nytAPIkey = "c4b3bebe95a3426fa3fb13684ae9bcd6";
+	var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
+	console.log(nytUrl);
 	$.getJSON( nytUrl, function( data ) {
 		console.log(data);
 		console.log(data.response.docs[0].headline.main + data.response.docs[0].lead_paragraph);
