@@ -4,3 +4,6 @@
 [submodule "11 Meme maker/master"]
 	path = 11 Meme maker/master
 	url = https://gist.github.com/4bb46f2966cf17777f93362331681f66.git
+[submodule "14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
+	path = 14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
+	url = https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git
