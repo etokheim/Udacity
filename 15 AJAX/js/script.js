@@ -22,7 +22,7 @@ function loadData() {
 
 
 	nytAPIkey = "c4b3bebe95a3426fa3fb13684ae9bcd6";
-	var nytUrl = "https://aapi.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
+	var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
 	$.getJSON( nytUrl, function( data ) {
 
 		articles = data.response.docs;
@@ -43,7 +43,7 @@ function loadData() {
 	}, 5000);
 
 	$.ajax({
-		url: 'https://aen.wikipedia.org/w/api.php?action=opensearch&search=' + city + '&format=json&callback=wikiCallback',
+		url: 'https://en.wikipedia.org/w/api.php?action=opensearch&search=' + city + '&format=json&callback=wikiCallback',
 		dataType: 'jsonp',
 		success: function(response) {
 			console.log(response);
