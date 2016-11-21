@@ -4,6 +4,32 @@ body {
 	padding: 0;
 }
 
+p, h1, h2, h3 {
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 + p {
+	font-size: .7rem;
+	margin-top: 0px;
+	letter-spacing: 1.5px;
+	color: #aaa;
+	text-transform: uppercase;
+	font-family: Arial, sans-serif;
+}
+
+h1 + p:after {
+	border-bottom: 1px solid #aaa;
+	content: "";
+	width: 35%;
+	padding-top: 30px;
+	margin: 0 auto;
+	display: block;
+}
+
 #main_container {
 	display: flex;
 	width: 100vw;
@@ -21,4 +47,23 @@ body {
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
+	border: 8px solid #fff;
+	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
+	margin-top: 30px;
+
+	transition: all 20ms ease-out;
+}
+
+#cat_container:active {
+	transform: scale(.95, .95);
+}
+
+#click_container {
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #aaa;
+	font-family: Arial, sans-serif;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-top: 20px;
 }
