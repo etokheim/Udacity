@@ -24,24 +24,51 @@ function loadData() {
 	$("#heroImage").css("background-image", "url('" + imgUrl + "')");
 
 
-	nytAPIkey = "c4b3bebe95a3426fa3fb13684ae9bcd6";
+	var nytAPIkey = "c4b3bebe95a3426fa3fb13684ae9bcd6";
 	var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
-	console.log(nytUrl);
+
 	$.getJSON( nytUrl, function( data ) {
-		console.log(data);
-		console.log(data.response.docs[0].headline.main + data.response.docs[0].lead_paragraph);
-		
 		articles = data.response.docs;
-		console.log(articles.length)
+
 		for(i = 0; i < articles.length; i++) {
-			console.log("running");
 			$("#nytimes-articles").append( "<li id='" + articles[i] + "'><h4>" + articles[i].headline.main + "</h4><p>" + articles[i].snippet + "</p></li>" );
 		}
-		
 	}).error(function() {
 		$("#nytimes-header").text("Can't connect to New York Times.");
 		$("#nytimes-articles").text("Please try again later.");
 	});
+
+	
+		
+$.ajax( {
+    url: 'https://en.wikipedia.org/w/api.php',
+    data: {
+        action: 'query',
+        meta: 'tokens',
+        format: 'json',
+        origin: 'https://www.mediawiki.org'
+    },
+    xhrFields: {
+        withCredentials: true
+    },
+    dataType: 'json'
+} ).done( function ( data ) {
+    $.ajax( {
+        url: 'https://en.wikipedia.org/w/api.php?origin=https://www.mediawiki.org',
+        method: 'POST',
+        data: {
+            action: 'options',
+            format: 'json',
+            token: data.query.tokens.csrftoken,
+            optionname: 'userjs-test',
+            optionvalue: 'Hello world!'
+        },
+        xhrFields: {
+            withCredentials: true
+        },
+        dataType: 'json'
+    } );
+} );
 
 
 
