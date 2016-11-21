@@ -235,13 +235,6 @@
 	},
 	"buffers":
 	[
-		{
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Windows"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -275,10 +268,12 @@
 	},
 	"expanded_folders":
 	[
-		"/C/wamp/www/-Prosjekt-/0011 Udacity/15 AJAX"
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/15 AJAX"
 	],
 	"file_history":
 	[
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/15 AJAX/index.html",
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/15 AJAX/js/script.js",
 		"/C/wamp/www/gitTesting/frontend-nanodegree-arcade-game/js/app.js",
 		"/C/wamp/www/-Prosjekt-/0011 Udacity/14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio/js/analytics.js",
 		"/C/wamp/www/-Prosjekt-/0011 Udacity/14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio/index.html",
@@ -533,36 +528,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -615,12 +582,16 @@
 		"selected_items":
 		[
 			[
-				"anal",
-				"js\\analytics.js"
+				"js",
+				"js\\script.js"
 			],
 			[
 				"inde",
 				"index.html"
+			],
+			[
+				"anal",
+				"js\\analytics.js"
 			],
 			[
 				"engi",
@@ -645,10 +616,6 @@
 			[
 				"jsen",
 				"js\\engine.js"
-			],
-			[
-				"js",
-				"js\\resources.js"
 			],
 			[
 				"style",
