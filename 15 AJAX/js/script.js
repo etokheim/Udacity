@@ -1,4 +1,3 @@
-// c4b3bebe95a3426fa3fb13684ae9bcd6
 function loadData() {
 
 	var $body = $('body');
@@ -14,35 +13,47 @@ function loadData() {
 	// load streetview
 
 	// YOUR CODE GOES HERE!
-	console.log("Submitted!");
 	var street = $("#street").val();
 	var city = $("#city").val();
-	var address = "streetstr=" + street + ",citystr=" + city; 
+	var address = "streetstr=" + street + ",citystr=" + city;
 	var imgUrl = "https://maps.googleapis.com/maps/api/streetview?size=" + $(document).height() + "x" + $(document).width() + "&location=" + address + "&heading=151.78&pitch=-0.76&key=AIzaSyCdvRRxv3KKScOz3yz9eSqSSjgET7EqKUY";
-	console.log(imgUrl);
 
 	$("#heroImage").css("background-image", "url('" + imgUrl + "')");
 
 
 	nytAPIkey = "c4b3bebe95a3426fa3fb13684ae9bcd6";
-	var nytUrl = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
-	console.log(nytUrl);
+	var nytUrl = "https://aapi.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + nytAPIkey + "&q="+ city + "&sort=newest";
 	$.getJSON( nytUrl, function( data ) {
-		console.log(data);
-		console.log(data.response.docs[0].headline.main + data.response.docs[0].lead_paragraph);
-		
+
 		articles = data.response.docs;
-		console.log(articles.length)
 		for(i = 0; i < articles.length; i++) {
-			console.log("running");
 			$("#nytimes-articles").append( "<li id='" + articles[i] + "'><h4>" + articles[i].headline.main + "</h4><p>" + articles[i].snippet + "</p></li>" );
 		}
-		
+
 	}).error(function() {
-		$("#nytimes-header").text("Can't connect to New York Times.");
+		$("#nytimes-header").text("Unable to connect to New York Times.");
 		$("#nytimes-articles").text("Please try again later.");
 	});
 
+
+	var wikipediaErrorHandling = setTimeout(function() {
+		console.log("timeout");
+		$("#wikipedia-header").text('Unable to connect to Wikipedia.');
+		$("#wikipedia-links").append('<li>Please try again later.</li>');
+	}, 5000);
+
+	$.ajax({
+		url: 'https://aen.wikipedia.org/w/api.php?action=opensearch&search=' + city + '&format=json&callback=wikiCallback',
+		dataType: 'jsonp',
+		success: function(response) {
+			console.log(response);
+			clearTimeout(wikipediaErrorHandling);
+			for (var i = 0; i < response[1].length; i++) {
+				response[1][i];
+				$wikiElem.append('<li><a href="' + response[3][i] + '">' + response[1][i] + '</a></li>');
+			}
+		}
+	})
 
 
 
@@ -51,6 +62,8 @@ function loadData() {
 
 $('#form-container').submit(loadData);
 
+
+// Just a helper - so I do not have to type something in all the time
 $("#street").val("1600 Pensylvania avenue");
 $("#city").val("Washington DC");
 $('#form-container').submit();
