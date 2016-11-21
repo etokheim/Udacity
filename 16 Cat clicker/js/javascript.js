@@ -1,9 +1,10 @@
 var clickCounter = 0;
 var cats = [];
 var numberOfCats = 2;
-var catHTML = '<div id="cat_container%index%" class="cat" onclick="%onclick%">\
+var imagesAvailable = 2;
+var catHTML = '<div id="cat_container%index%" class="cat">\
 				<h1>%kittenName%</h1>\
-				<div id="cat_image"></div>\
+				<div id="cat_image" style="background-image: url(' + "'" + 'img/cat%imageIndex%.jpg' + "'" + '" onclick="%onclick%"></div>\
 				<p id="click_container"><span id="click_counter">0</span> times</p>\
 			</div>';
 var catNames = {
@@ -18,24 +19,23 @@ function Cat(index) {
 	this.timesClicked = 0;
 
 	if(Math.floor(Math.random() * 2) === 0) {
-		this.kittenName = catNames.boys[Math.floor(Math.random() * catNames.boys.length)];
+		// Male
+		this.kittenName = catNames.boys[Math.floor(Math.random() * catNames.boys.length)];// + "♂";
 	} else {
-		this.kittenName = catNames.boys[Math.floor(Math.random() * catNames.boys.length)];		
+		// Female
+		this.kittenName = catNames.boys[Math.floor(Math.random() * catNames.boys.length)];// + "♀";
 	}
 
 	this.HTML = this.HTML.replace("%kittenName%", this.kittenName);
 
 	this.HTML = this.HTML.replace("%onclick%", "cats[" + index + "].click()");
 	this.HTML = this.HTML.replace("%index%", index);
+	this.HTML = this.HTML.replace("%imageIndex%", index);
 
 	this.click = function() {
 		this.timesClicked++;
 		$("#cat_container" + index).find("#click_counter").text(this.timesClicked);
 	}
-}
-
-function catClick() {
-	console.log(this);
 }
 
 for (var i = 0; i < numberOfCats; i++) {

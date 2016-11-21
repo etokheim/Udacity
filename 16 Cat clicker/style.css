@@ -1,3 +1,7 @@
+* {
+	transition: all 250ms ease-out;
+}
+
 body {
 	background: #eee;
 	margin: 0;
@@ -24,7 +28,7 @@ h1 + p {
 h1 + p:after {
 	border-bottom: 1px solid #aaa;
 	content: "";
-	width: 35%;
+	width: 30px;
 	padding-top: 30px;
 	margin: 0 auto;
 	display: block;
@@ -36,6 +40,7 @@ h1 + p:after {
 	max-width: 400px;
 	margin: 0 auto;
 	text-align: center;
+	margin-top: 50px;
 }
 
 #main_container {
@@ -48,11 +53,6 @@ h1 + p:after {
 	align-items: center;
 }
 
-@media screen min-width: 750px {
-	#main_container {
-		background-color: blue;
-	}
-}
 
 .cat {
 	text-align: center;
@@ -80,7 +80,7 @@ h1 + p:after {
 	border: 8px solid #fff;
 	box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);
 	margin: 0 auto;
-	margin-top: 30px;
+	margin-top: 10px;
 
 	transition: all 20ms ease-out;
 }
@@ -97,4 +97,18 @@ h1 + p:after {
 	font-weight: 700;
 	letter-spacing: 2px;
 	margin-top: 20px;
+}
+
+@media screen and (max-width: 550px) {
+	#main_container {
+		height: auto;
+	}
+
+	#kitten_container {
+		flex-direction: column;
+	}
+
+	.cat {
+		margin-top: 80px;
+	}
 }
