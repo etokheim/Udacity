@@ -7,3 +7,9 @@
 [submodule "14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
 	path = 14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git
+[submodule "17 Pizza App/ud989-pizzamvo"]
+	path = 17 Pizza App/ud989-pizzamvo
+	url = https://github.com/etokheim/ud989-pizzamvo.git
+[submodule "18 Retain/ud989-retain"]
+	path = 18 Retain/ud989-retain
+	url = https://github.com/etokheim/ud989-retain.git
