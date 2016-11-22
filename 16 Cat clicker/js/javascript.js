@@ -1,6 +1,6 @@
 var clickCounter = 0;
 var cats = [];
-var numberOfCats = 7;
+var numberOfCats = 8;
 var imagesAvailable = 2;
 var currentlyFeaturedCat = 0;
 var catHTML = '<div id="cat_container_featured" class="cat">\
