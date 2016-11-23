@@ -16,3 +16,6 @@
 [submodule "13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game"]
 	path = 13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game
 	url = https://github.com/etokheim/frontend-nanodegree-arcade-game.git
+[submodule "19 Refactor spaghetti code/ud989-school-attendance"]
+	path = 19 Refactor spaghetti code/ud989-school-attendance
+	url = https://github.com/etokheim/ud989-school-attendance.git
