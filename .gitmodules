@@ -13,12 +13,12 @@
 [submodule "13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game"]
 	path = 13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game
 	url = https://github.com/etokheim/frontend-nanodegree-arcade-game.git
-[submodule "20 Todo-app/ud989-todo-app"]
-	path = 20 Todo-app/ud989-todo-app
-	url = https://github.com/etokheim/ud989-todo-app.git
 [submodule "14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
 	path = 14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
 [submodule "19 Refactor spaghetti code/ud989-school-attendance"]
 	path = 19 Refactor spaghetti code/ud989-school-attendance
 	url = https://github.com/etokheim/ud989-school-attendance.git
+[submodule "20 Todo-app/ud989-todo-app"]
+	path = 20 Todo-app/ud989-todo-app
+	url = https://github.com/etokheim/ud989-todo-app.git
