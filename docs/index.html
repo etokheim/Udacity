@@ -5,7 +5,6 @@
 		<link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script type="text/javascript" src="js/jquery.min.js"></script>
-		<script type="text/javascript" src="js/knockout.min.js"></script>
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	</head>
 	<body>
@@ -17,13 +16,13 @@
 			<div id="main_container">
 				<div id="kitten_container">
 					<div id="cat_container_featured" class="cat">
-						<h2 data-bind="text: currentCat().nameAndLevel"></h2>
+						<h2></h2>
 						<div id="cat_image_aspect_ratio_trick">
-							<div id="cat_image" data-bind="click: incrementCounter, style: { backgroundImage: 'url(\'' + currentCat().imgSrc + '\')' }">
+							<div id="cat_image">
 								PLEASE ENABLE JAVASCRIPT! You can't click the kitten without it. It's your duty to click the kitten - go enable JavaScript. Go make me proud!
 							</div>
 						</div>
-						<p id="click_container"><span class="click_counter" data-bind="text: currentCat().clickCount">0</span> times</p>
+						<p id="click_container"><span class="click_counter">0</span> times</p>
 					</div>
 				</div>
 				<div id="cat_list_container">

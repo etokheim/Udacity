@@ -1,45 +1,3 @@
-var ViewModel = function() {
-	this.currentCat = ko.observable(new Cat());
-
-	this.incrementCounter = function() {
-		this.currentCat().clickCount(this.currentCat().clickCount() + 1);
-	};
-}
-
-ko.applyBindings(new ViewModel());
-
-function Cat() {
-	this.clickCount = ko.observable(0);
-
-	this.level = ko.observable('New born');
-
-	this.name = ko.observable('Little Name');
-	this.nameAndLevel = ko.computed(function() {
-		return this.name() + " - " + this.level();
-	}, this);
-
-	this.imgSrc = 'img/cat1.jpg';
-
-	this.level = function() {
-		if(this.clickCount() < 10) {
-			this.level("New born");
-		} else if(this.clickCount() < 50) {
-			this.level("Infant");
-		} else if(this.clickCount() < 100) {
-			this.level("Teen");
-		} else if(this.clickCount() < 200) {
-			this.level("Young adult");
-		} else if(this.clickCount() < 300) {
-			this.level("Adult");
-		} else if(this.clickCount() < 400) {
-			this.level("Super adult");
-		} else if(this.clickCount() < 500) {
-			this.level("Mega adult");
-		}
-	};
-}
-
-
 var model = {
 	cat: {
 		numberOfCats: 12,
@@ -162,7 +120,7 @@ var catView = {
 
 		// Remove the "please enable javascript"-message
 		$("#cat_image").html("");
-
+		
 
 		this.setCurrent(octopus.getCurrentCat());
 
@@ -207,4 +165,4 @@ var catListView = {
 	}
 };
 
-// octopus.init();
+octopus.init();
