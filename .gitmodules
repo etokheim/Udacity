@@ -4,9 +4,6 @@
 [submodule "11 Meme maker/master"]
 	path = 11 Meme maker/master
 	url = https://gist.github.com/4bb46f2966cf17777f93362331681f66.git
-[submodule "14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
-	path = 14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
-	url = https://github.com/udacity/frontend-nanodegree-mobile-portfolio.git
 [submodule "17 Pizza App/ud989-pizzamvo"]
 	path = 17 Pizza App/ud989-pizzamvo
 	url = https://github.com/etokheim/ud989-pizzamvo.git
@@ -22,3 +19,6 @@
 [submodule "20 Todo-app/ud989-todo-app"]
 	path = 20 Todo-app/ud989-todo-app
 	url = https://github.com/etokheim/ud989-todo-app.git
+[submodule "14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
+	path = 14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
+	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
