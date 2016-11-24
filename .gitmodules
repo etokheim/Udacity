@@ -19,3 +19,6 @@
 [submodule "19 Refactor spaghetti code/ud989-school-attendance"]
 	path = 19 Refactor spaghetti code/ud989-school-attendance
 	url = https://github.com/etokheim/ud989-school-attendance.git
+[submodule "20 Todo-app/ud989-todo-app"]
+	path = 20 Todo-app/ud989-todo-app
+	url = https://github.com/etokheim/ud989-todo-app.git

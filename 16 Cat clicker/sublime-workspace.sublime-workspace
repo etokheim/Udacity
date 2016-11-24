@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"getCat",
+				"getCatListHTML"
+			],
+			[
+				"get",
+				"getCurrentCat"
+			],
+			[
 				"for",
 				"for\tfor (…) {…}"
 			],
@@ -172,10 +180,6 @@
 				"menu_1_height"
 			],
 			[
-				"get",
-				"getElementById"
-			],
-			[
 				"ballghost",
 				"ballGhost1Radius"
 			],
@@ -239,7 +243,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 989,
+				"buffer_size": 1298,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -248,7 +252,7 @@
 			"file": "js/javascript.js",
 			"settings":
 			{
-				"buffer_size": 3703,
+				"buffer_size": 5032,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -257,7 +261,7 @@
 			"file": "style.css",
 			"settings":
 			{
-				"buffer_size": 6145,
+				"buffer_size": 8570,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -320,13 +324,15 @@
 	"expanded_folders":
 	[
 		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker",
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker/Andys-cat-clicker",
 		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker/img"
 	],
 	"file_history":
 	[
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker/Andys-cat-clicker/ud989-cat-clicker-andy/app.js",
+		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker/style.css",
 		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/18 Retain/ud989-retain/index.html",
 		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/18 Retain/ud989-retain/js/retain.js",
-		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/16 Cat clicker/style.css",
 		"/C/Users/erlin/Desktop/Udacity/Udacity/01 Front-end course/13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game/index.sublime-workspace",
 		"/C/wamp/www/gitTesting/frontend-nanodegree-arcade-game/js/app.js",
 		"/C/wamp/www/-Prosjekt-/0011 Udacity/14 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio/js/analytics.js",
@@ -422,7 +428,7 @@
 	],
 	"find":
 	{
-		"height": 32.0
+		"height": 86.0
 	},
 	"find_in_files":
 	{
@@ -436,6 +442,42 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"getCurrentCat",
+			"getCurrentCat()",
+			"append",
+			"new ",
+			"Index",
+			"index",
+			"this.listHTML",
+			"getCatListhtml",
+			"HTML",
+			"html",
+			"HTML",
+			"setCurrent",
+			"this",
+			"getCurrentCat",
+			"CurrentCat",
+			"currentCat",
+			"timesClicked",
+			"\\",
+			"cat",
+			"male",
+			"girls",
+			"boys",
+			"catNames",
+			"currrentCat",
+			"model",
+			"}\n}",
+			"ermalink - use to edit and share this gradient:",
+			" Permalink - use to edit and share this gradient: h",
+			"\t\tbackground: -moz-linear-gradient(top,  rgba(238,238,238,1) 0%, rgba(238,238,238,0.99) 1%, rgba(255,255,255,0) 100%); /* FF3.6-15 */\n",
+			"http://colorzilla.com/gradient-editor/#eeeeee+1,ffffff+100&1+0,0+100",
+			"listed_cat_i",
+			"\tbox-shadow: 0px 0px 40px rgba(0, 0, 0, 0.2);\n",
+			".cat",
+			"main_con",
+			"main_container",
+			"cat_container_featured",
 			"getAllNotes",
 			"localStorage",
 			"display",
@@ -527,43 +569,7 @@
 			"worksStart",
 			"HTML",
 			"/*float:",
-			"</a>",
-			"<a href=\"#\">",
-			"<li>",
-			"li",
-			"weather__today",
-			"weather__today__image",
-			"weather__primary__weather_and_temp",
-			"weather__next",
-			"width",
-			"float",
-			"news ",
-			"news",
-			"em",
-			"35",
-			"div",
-			"in</c",
-			"main",
-			"border-box",
-			"<p>",
-			"***",
-			".frame",
-			"5px",
-			"dots",
-			"5",
-			"\">",
-			"introSlideshow",
-			"\"];",
-			"-",
-			"postObject",
-			"150",
-			"thumbnail",
-			"200",
-			"logo",
-			"large",
-			"Forsidelay",
-			"forside",
-			"featured"
+			"</a>"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -588,7 +594,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -597,48 +603,21 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 989,
+						"buffer_size": 1298,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								409,
-								295
+								636,
+								658
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "js/javascript.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3703,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								252,
-								252
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -648,32 +627,92 @@
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "style.css",
+					"buffer": 1,
+					"file": "js/javascript.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6145,
+						"buffer_size": 5032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								860,
-								860
+								40,
+								40
 							]
 						],
 						"settings":
 						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2396,
+								2396
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
 							"syntax": "Packages/CSS/CSS.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 552.0,
+						"translation.y": 1291.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "style.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 8570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3345,
+								3345
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/CSS/CSS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1782.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
 					"type": "text"
 				}
 			]
