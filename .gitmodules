@@ -22,3 +22,6 @@
 [submodule "20 Todo-app/ud989-todo-app"]
 	path = 20 Todo-app/ud989-todo-app
 	url = https://github.com/etokheim/ud989-todo-app.git
+[submodule "21 Google Maps API/ud864"]
+	path = 21 Google Maps API/ud864
+	url = https://github.com/udacity/ud864.git
