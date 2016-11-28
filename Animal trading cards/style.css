@@ -67,3 +67,14 @@ p {
 	margin-top: 0;
 	color: #555;
 }
+
+#image_attribution {
+	position: absolute;
+	right: 10px;
+	bottom: 10px;
+	opacity: 0.5;
+}
+
+#image_attribution:hover {
+	opacity: 1;
+}
