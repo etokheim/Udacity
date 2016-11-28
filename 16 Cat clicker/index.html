@@ -16,19 +16,25 @@
 			</div>
 			<div id="main_container">
 				<div id="kitten_container">
-					<div id="cat_container_featured" class="cat">
-						<h2 data-bind="text: currentCat().nameAndLevel"></h2>
+					<div id="cat_container_featured" class="cat" data-bind="with: currentCat()">
+						<h2 data-bind="text: nameAndLevel"></h2>
 						<div id="cat_image_aspect_ratio_trick">
-							<div id="cat_image" data-bind="click: incrementCounter, style: { backgroundImage: 'url(\'' + currentCat().imgSrc + '\')' }">
-								PLEASE ENABLE JAVASCRIPT! You can't click the kitten without it. It's your duty to click the kitten - go enable JavaScript. Go make me proud!
+							<div id="cat_image" data-bind="click: $root.incrementCounter, style: { backgroundImage: 'url(\'' + imgSrc + '\')' }">
+								<!-- PLEASE ENABLE JAVASCRIPT! You can't click the kitten without it. It's your duty to click the kitten - go enable JavaScript. Go make me proud! -->
 							</div>
 						</div>
-						<p id="click_container"><span class="click_counter" data-bind="text: currentCat().clickCount">0</span> times</p>
+						<p id="click_container"><span class="click_counter" data-bind="text: clickCount">0</span> times</p>
 					</div>
 				</div>
 				<div id="cat_list_container">
 					<div id="cat_list">
 						<div class="fade_top"></div>
+						<div class="listed_cat_container" data-bind="foreach: cats">
+							<div class="listed_cat_image" data-bind="style: { backgroundImage: 'url(\'' + imgSrc + '\')' }, click: $root.setCat">
+								<h3 class="listed_cat_name" data-bind="text: name"></h3>
+								<p class="click_counter%index%" data-bind="text: clickCount"></p>
+							</div>
+						</div>
 						<div class="fade_bottom"></div>
 					</div>
 				</div>
