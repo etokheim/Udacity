@@ -25,3 +25,6 @@
 [submodule "21 Google Maps API/ud864"]
 	path = 21 Google Maps API/ud864
 	url = https://github.com/etokheim/ud864.git
+[submodule "08 Website Optimization - 02 Web workers/web-workers-demo"]
+	path = 08 Website Optimization - 02 Web workers/web-workers-demo
+	url = https://github.com/etokheim/web-workers-demo.git
