@@ -28,3 +28,6 @@
 [submodule "08 Website Optimization/01 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
 	path = 08 Website Optimization/01 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
+[submodule "08 Website Optimization/03 QR-code/qrcode"]
+	path = 08 Website Optimization/03 QR-code/qrcode
+	url = https://github.com/etokheim/qrcode.git
