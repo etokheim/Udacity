@@ -14,7 +14,7 @@
 	path = 12 Neighborhood Map/19 Refactor spaghetti code/ud989-school-attendance
 	url = https://github.com/etokheim/ud989-school-attendance.git
 [submodule "20 Todo-app/ud989-todo-app"]
-	path = 20 Todo-app/ud989-todo-app
+	path = 12 Neighborhood Map/20 Todo-app/ud989-todo-app
 	url = https://github.com/etokheim/ud989-todo-app.git
 [submodule "21 Google Maps API/ud864"]
 	path = 21 Google Maps API/ud864
