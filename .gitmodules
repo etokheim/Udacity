@@ -23,20 +23,20 @@
 	path = 21 Google Maps API/ud864
 	url = https://github.com/etokheim/ud864.git
 [submodule "08 Website Optimization/02 Web worker/web-workers-demo"]
-	path = 08 Website Optimization/02 Web worker/web-workers-demo
+	path = 11 Website Optimization/02 Web worker/web-workers-demo
 	url = https://github.com/etokheim/web-workers-demo.git
 [submodule "08 Website Optimization/01 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio"]
-	path = 08 Website Optimization/01 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
+	path = 11 Website Optimization/01 Optimize Cameron's portfolio page/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
 [submodule "08 Website Optimization/03 QR-code/qrcode"]
-	path = 08 Website Optimization/03 QR-code/qrcode
+	path = 11 Website Optimization/03 QR-code/qrcode
 	url = https://github.com/etokheim/qrcode.git
 [submodule "08 Website Optimization/05 Pizza performance/pizza-perf"]
-	path = 08 Website Optimization/05 Pizza performance/pizza-perf
+	path = 11 Website Optimization/05 Pizza performance/pizza-perf
 	url = https://github.com/etokheim/pizza-perf.git
 [submodule "08 Website Optimization/06 Hacker news - Performance optimization/news-aggregator"]
-	path = 08 Website Optimization/06 Hacker news - Performance optimization/news-aggregator
+	path = 11 Website Optimization/06 Hacker news - Performance optimization/news-aggregator
 	url = https://github.com/etokheim/news-aggregator.git
 [submodule "08 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio"]
-	path = 08 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio
+	path = 11 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
