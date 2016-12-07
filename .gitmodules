@@ -5,7 +5,7 @@
 	path = 12 Neighborhood Map/17 Pizza App/ud989-pizzamvo
 	url = https://github.com/etokheim/ud989-pizzamvo.git
 [submodule "18 Retain/ud989-retain"]
-	path = 18 Retain/ud989-retain
+	path = 12 Neighborhood Map/18 Retain/ud989-retain
 	url = https://github.com/etokheim/ud989-retain.git
 [submodule "13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game"]
 	path = 09 Classic Arcade Game Clone/13 Classic Arcade Game - Ladybug/frontend-nanodegree-arcade-game
