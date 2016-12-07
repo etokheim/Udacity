@@ -1,1 +1,0 @@
-These are my Udacity Front End Developer course projects.
