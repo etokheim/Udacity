@@ -37,3 +37,6 @@
 [submodule "08 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio"]
 	path = 11 Website Optimization/07 Project - Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
+[submodule "05 Build a Portfolio Site/04 Project - Build a Portfolio Site/Build-a-Portfolio-Site"]
+	path = 05 Build a Portfolio Site/04 Project - Build a Portfolio Site/Build-a-Portfolio-Site
+	url = https://github.com/etokheim/Build-a-Portfolio-Site.git
