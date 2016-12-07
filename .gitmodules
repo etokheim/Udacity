@@ -35,5 +35,5 @@
 	path = 11 Website Optimization/06 Hacker news - Performance optimization/news-aggregator
 	url = https://github.com/etokheim/news-aggregator.git
 [submodule "08 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio"]
-	path = 11 Website Optimization/07 Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio
+	path = 11 Website Optimization/07 Project - Web portfolio - performance optimization/frontend-nanodegree-mobile-portfolio
 	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
