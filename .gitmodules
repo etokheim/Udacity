@@ -1,9 +1,6 @@
 [submodule "09 Javascript basics - Online Resume/master"]
 	path = 06 Online Resume/02 Project - Javascript basics - Online Resume/master
 	url = https://github.com/etokheim/frontend-nanodegree-resume.git
-[submodule "11 Meme maker/master"]
-	path = 11 Meme maker/master
-	url = https://gist.github.com/4bb46f2966cf17777f93362331681f66.git
 [submodule "17 Pizza App/ud989-pizzamvo"]
 	path = 17 Pizza App/ud989-pizzamvo
 	url = https://github.com/etokheim/ud989-pizzamvo.git
