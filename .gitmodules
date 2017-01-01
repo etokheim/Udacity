@@ -43,3 +43,6 @@
 [submodule "09 Classic Arcade Game Clone/01 Meme maker/4bb46f2966cf17777f93362331681f66"]
 	path = 09 Classic Arcade Game Clone/01 Meme maker/4bb46f2966cf17777f93362331681f66
 	url = https://gist.github.com/4bb46f2966cf17777f93362331681f66.git
+[submodule "12 Neighborhood Map/07 Project - Neighborhood Map/Project-Neighborhood-Map"]
+	path = 12 Neighborhood Map/07 Project - Neighborhood Map/Project-Neighborhood-Map
+	url = https://github.com/etokheim/Project-Neighborhood-Map.git
