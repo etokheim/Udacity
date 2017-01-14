@@ -425,6 +425,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"click",
 			"currentCat",
 			"CurrentCat",
 			"currentCat",
@@ -551,8 +552,7 @@
 			"Employer",
 			"eployer",
 			"project.p",
-			"job",
-			"jobs"
+			"job"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -577,7 +577,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -593,8 +593,8 @@
 						"selection":
 						[
 							[
-								229,
-								229
+								1304,
+								1304
 							]
 						],
 						"settings":
@@ -607,7 +607,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -623,8 +623,8 @@
 						"selection":
 						[
 							[
-								1531,
-								1531
+								2021,
+								2021
 							]
 						],
 						"settings":
@@ -667,7 +667,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
