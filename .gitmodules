@@ -46,3 +46,6 @@
 [submodule "12 Neighborhood Map/07 Project - Neighborhood Map/Project-Neighborhood-Map"]
 	path = 12 Neighborhood Map/07 Project - Neighborhood Map/Project-Neighborhood-Map
 	url = https://github.com/etokheim/Project-Neighborhood-Map.git
+[submodule "08 Website Optimization/frontend-nanodegree-mobile-portfolio"]
+	path = 08 Website Optimization/frontend-nanodegree-mobile-portfolio
+	url = https://github.com/etokheim/frontend-nanodegree-mobile-portfolio.git
